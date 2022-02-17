@@ -1,0 +1,64 @@
+body {
+  border: 1px solid black;
+  margin: auto 100px ;
+}
+header div {
+  background-color: rgb(247, 246, 242);
+  float: left;
+  border: 0px solid black;
+  width: 25%;
+  box-sizing: border-box;
+  font-size: 40px;
+  height:150;
+  font-style: oblique;
+  text-align: center;
+ 
+  padding: 25px;
+}
+
+a {
+text-decoration: none;
+color: black;
+}
+.avatar {
+  width: 250px;
+  padding-left: 250%;
+  margin-top: 50%;
+  z-index: 2;
+  /* position: relative; */
+  top:5px;
+}
+.article {
+ font-size: 160%;
+ text-align: left;
+ z-index: 1;
+position: relative;
+top: -300px;
+left: 20px;
+
+ }
+.black{
+  background: black;
+  color:aliceblue;
+}
+.white{
+  background: white;
+}
+.photo1 {
+  width: 30%;
+}
+.contacts {
+  width:20%;
+}
+.foto img {
+  width: 30%;
+  
+
+}
+.price {
+  font-size: 150%;
+  padding-left: 10%;
+  
+}
+
+
